@@ -2,6 +2,7 @@
 	import Header from './Header.svelte';
 	import '../app.css';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 
 	injectSpeedInsights();
 	/** @type {{children: import('svelte').Snippet}} */
