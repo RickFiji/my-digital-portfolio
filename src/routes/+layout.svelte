@@ -5,6 +5,7 @@
 	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 
 	injectSpeedInsights();
+	injectAnalytics();
 	/** @type {{children: import('svelte').Snippet}} */
 	let { children } = $props();
 </script>
