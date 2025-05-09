@@ -1,10 +1,17 @@
 <script>
-    // No props needed for now; you can make it dynamic later
+    import headshot from '$lib/images/headshot-doge.jpg';
+	import welcome from '$lib/images/svelte-welcome.webp';
+	import welcomeFallback from '$lib/images/svelte-welcome.png';
 </script>
   
 <section class="text-center py-16">
+<picture>
+    <source srcset={welcome} type="image/webp" />
+    <img src={welcomeFallback} alt="Welcome" />
+</picture>
+
 <img 
-    src="/images/headshot.jpg" 
+    src={headshot} 
     alt="Rick Miskin headshot" 
     class="mx-auto rounded-full w-32 h-32 object-cover mb-6 border-4 border-blue-600"
 />
@@ -18,6 +25,7 @@
     <a 
     href="/resume" 
     class="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition"
+    aria-label="View Résumé"
     >
     View Résumé
     </a>
@@ -29,4 +37,3 @@
     </a>
 </div>
 </section>
-  

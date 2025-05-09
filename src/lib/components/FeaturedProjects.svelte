@@ -1,18 +1,20 @@
 <script>
-    const featuredProjects = [
-      {
-        title: "Project One",
-        description: "A short blurb about this project.",
-        image: "/images/project1.jpg",
-        url: "https://example.com/project1"
-      },
-      {
-        title: "Project Two",
-        description: "Another awesome project.",
-        image: "/images/project2.jpg",
-        url: "https://example.com/project2"
-      }
-    ];
+	import logo from '$lib/images/svelte-logo.svg';
+  
+  const featuredProjects = [
+    {
+      title: "Project One",
+      description: "A short blurb about this project.",
+      image: logo,
+      url: "https://example.com/project1"
+    },
+    {
+      title: "Project Two",
+      description: "Another awesome project.",
+      image: logo,
+      url: "https://example.com/project2"
+    }
+  ];
 </script>
 
 <section>

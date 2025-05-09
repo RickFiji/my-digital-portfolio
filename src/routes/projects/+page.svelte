@@ -1,23 +1,24 @@
 <script>
   import ProjectCard from '$lib/components/ProjectCard.svelte';
+  import image from '$lib/images/svelte-logo.svg';
 
   const projects = [
     {
       title: "Project One",
       description: "A website I built for a local business using SvelteKit and Tailwind.",
-      image: "/images/svelte-logo.svg",
+      image: image,
       url: "https://google.com/"
     },
     {
       title: "Project Two",
       description: "A modern portfolio site built with accessibility and speed in mind.",
-      image: "/images/svelte-logo.svg",
+      image: image,
       url: "https://google.com/"
     },
     {
       title: "Project Three",
       description: "A full-stack web app with authentication and dashboard functionality.",
-      image: "/images/svelte-logo.svg",
+      image: image,
       url: "https://google.com/"
     }
   ];
