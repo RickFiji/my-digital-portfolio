@@ -1,27 +1,20 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import SiteFooter from '$lib/components/SiteFooter.svelte';
 	import '../app.css';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit'
 
 	injectSpeedInsights();
 	injectAnalytics();
-	/** @type {{children: import('svelte').Snippet}} */
-	let { children } = $props();
 </script>
 
 <div class="app">
 	<Header />
-
 	<main>
-		{@render children()}
+		<slot />
 	</main>
-
-	<footer>
-		<p>
-			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
-		</p>
-	</footer>
+	<SiteFooter />
 </div>
 
 <style>

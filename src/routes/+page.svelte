@@ -1,59 +1,22 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcomeFallback from '$lib/images/svelte-welcome.png';
+	// import Counter from '../lib/components/Counter.svelte';
+	// import welcome from '$lib/images/svelte-welcome.webp';
+	// import welcomeFallback from '$lib/images/svelte-welcome.png';
+	import HeroSection from '$lib/components/HeroSection.svelte';
+	import FeaturedProjects from '$lib/components/FeaturedProjects.svelte';
+	import AboutPreview from '$lib/components/AboutPreview.svelte';
+	import ContactCTA from '$lib/components/ContactCTA.svelte';
+	import SiteFooter from '$lib/components/SiteFooter.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Rick Miskin | Software Engineer</title>
+	<meta name="description" content="Full-stack software engineer building websites for local businesses and employers. View my work and résumé." />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcomeFallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+<main class="px-4 sm:px-6 lg:px-8 py-12 space-y-24">
+	<HeroSection />
+	<FeaturedProjects />
+	<AboutPreview />
+	<ContactCTA />
+</main>
