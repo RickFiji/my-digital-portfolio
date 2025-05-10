@@ -20,7 +20,7 @@
     },
     {
       title: "Hunt Hook & Cook",
-      description: "A website I built for a friend business using MudBlazor.",
+      description: "A website I built for a friend's business using MudBlazor.",
       image: hhcLogo,
       url: "https://hunthookandcook-dgdjb6dwhqcghyh8.eastus2-01.azurewebsites.net"
     },
