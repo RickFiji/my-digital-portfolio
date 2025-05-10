@@ -15,7 +15,7 @@
   <div class="max-w-7xl mx-auto flex justify-between items-center">
     <!-- Logo -->
     <a href="/" class="text-xl font-bold text-blue-700">
-      Rick Miskin
+      Rick Miskin II
     </a>
 
     <!-- Desktop Nav -->

@@ -13,16 +13,16 @@
       url: "https://google.com/"
     },
     {
-      title: "Hunt Hook & Cook",
-      description: "A website I built for a friend business using MudBlazor.",
-      image: hhcLogo,
-      url: "https://hunthookandcook-dgdjb6dwhqcghyh8.eastus2-01.azurewebsites.net"
-    },
-    {
       title: "Sverdle",
       description: "Wordle but written using Svelte!",
       image: svelteLogo,
       url: "https://www.rickmiskin.dev/sverdle"
+    },
+    {
+      title: "Hunt Hook & Cook",
+      description: "A website I built for a friend business using MudBlazor.",
+      image: hhcLogo,
+      url: "https://hunthookandcook-dgdjb6dwhqcghyh8.eastus2-01.azurewebsites.net"
     },
     {
       title: "Missing Image",
