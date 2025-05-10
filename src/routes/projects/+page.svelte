@@ -8,7 +8,7 @@
   const projects = [
     {
       title: "Dad Joke Generator",
-      description: "Demo Api calls SvelteKit and Tailwind. It's fun!",
+      description: "Demo API calls SvelteKit and Tailwind. It's fun!",
       image: dadjokeLogo,
       url: "https://google.com/"
     },
