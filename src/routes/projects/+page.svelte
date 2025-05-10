@@ -1,25 +1,34 @@
 <script>
   import ProjectCard from '$lib/components/ProjectCard.svelte';
-  import image from '$lib/images/svelte-logo.svg';
+  import svelteLogo from '$lib/images/svelte-logo.svg';
+  import hhcLogo from '$lib/images/hhc-logo.jpg';
+  import dadjokeLogo from '$lib/images/dad-joke-logo.jpg';
+  import missingImage from '$lib/images/missing-image.jpg';
 
   const projects = [
     {
-      title: "Project One",
-      description: "A website I built for a local business using SvelteKit and Tailwind.",
-      image: image,
+      title: "Dad Joke Generator",
+      description: "Demo Api calls SvelteKit and Tailwind. It's fun!",
+      image: dadjokeLogo,
       url: "https://google.com/"
     },
     {
-      title: "Project Two",
-      description: "A modern portfolio site built with accessibility and speed in mind.",
-      image: image,
-      url: "https://google.com/"
+      title: "Hunt Hook & Cook",
+      description: "A website I built for a friend business using MudBlazor.",
+      image: hhcLogo,
+      url: "https://hunthookandcook-dgdjb6dwhqcghyh8.eastus2-01.azurewebsites.net"
     },
     {
-      title: "Project Three",
-      description: "A full-stack web app with authentication and dashboard functionality.",
-      image: image,
-      url: "https://google.com/"
+      title: "Sverdle",
+      description: "Wordle but written using Svelte!",
+      image: svelteLogo,
+      url: "https://www.rickmiskin.dev/sverdle"
+    },
+    {
+      title: "Missing Image",
+      description: "A placeholder image for projects without a logo.",
+      image: missingImage,
+      url: "#"
     }
   ];
 </script>
