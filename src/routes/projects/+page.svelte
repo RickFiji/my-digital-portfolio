@@ -10,13 +10,13 @@
       title: "Dad Joke Generator",
       description: "Demo API calls SvelteKit and Tailwind. It's fun!",
       image: dadjokeLogo,
-      url: "https://www.rickmiskin.dev/dad-joke"
+      url: "/dad-joke"
     },
     {
       title: "Sverdle",
       description: "Wordle but written using Svelte!",
       image: svelteLogo,
-      url: "https://www.rickmiskin.dev/sverdle"
+      url: "/sverdle"
     },
     {
       title: "Hunt Hook & Cook",
