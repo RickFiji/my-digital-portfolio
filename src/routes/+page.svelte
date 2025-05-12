@@ -10,9 +10,15 @@
 	<meta name="description" content="Full-stack software engineer building websites for local businesses and employers. View my work and résumé." />
 </svelte:head>
 
-<main class="px-4 sm:px-6 lg:px-8 py-12 space-y-24">
+<div class="bg-white">
 	<HeroSection />
+</div>
+<div class="bg-gray-100">
 	<FeaturedProjects />
+</div>
+<div class="bg-white">
 	<AboutPreview />
+</div>
+<div class="bg-gray-100">
 	<ContactCTA />
-</main>
+</div>
