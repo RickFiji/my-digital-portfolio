@@ -9,6 +9,11 @@
     async function fetchJoke() {
         try {
             isLoading = true;
+            error = null;
+
+            // Simulate a delay for loading state
+            await new Promise((resolve) => setTimeout(resolve, 250));
+
             const response = await fetch('https://icanhazdadjoke.com/', {
                 headers: {
                     Accept: 'application/json'
@@ -25,7 +30,6 @@
             error = err.message;
         } finally {
             isLoading = false;
-            
         }
     }
 
