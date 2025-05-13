@@ -2,7 +2,7 @@
     import headshot from '$lib/images/headshot-doge.jpg';
 </script>
   
-<section class="text-center py-16">
+<section class="text-center bg-gray-50 py-10 px-6 rounded-lg shadow-sm">
     <img 
         src={headshot} 
         alt="Rick Miskin headshot" 

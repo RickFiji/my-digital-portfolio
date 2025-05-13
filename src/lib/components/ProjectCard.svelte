@@ -13,8 +13,14 @@
 >
     <img src={image} alt={title} class="w-full h-48 object-cover" />
     <div class="p-4">
-      <h2 class="text-xl font-semibold">{title}</h2>
-      <p class="text-gray-600">{description}</p>
+      <h2 class="text-center text-xl font-semibold">{title}</h2>
+      <p class="text-center text-gray-600">{description}</p>
     </div>
 </a>
+<style>
+    p {
+        text-decoration: none;
+        color: rgb(91, 91, 91);
+    }
+</style>
   

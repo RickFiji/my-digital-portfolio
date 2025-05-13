@@ -46,7 +46,7 @@
     <meta name="author" content="Your Name" />
 </svelte:head>
 
-<div class="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
+<div class="flex flex-col items-center  p-4">
     <h1 class="text-4xl font-bold text-gray-800 mb-6">Random Dad Joke</h1>
 
     <div class="bg-white shadow-md rounded-lg p-6 max-w-md w-full">
