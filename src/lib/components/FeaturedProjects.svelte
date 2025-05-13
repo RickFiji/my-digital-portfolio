@@ -19,10 +19,10 @@
   ];
 </script>
 
-<section>
-  <h2 class="text-2xl font-semibold text-center mb-6">Featured Projects</h2>
+<section class="text-center bg-gray-50 py-10 px-6 rounded-lg shadow-sm">
+    <h2 class="text-xl font-semibold mb-6">Featured Projects</h2>
 
-  <div class="grid gap-6 sm:grid-cols-2">
+  <div class="grid gap-6 sm:grid-cols-2 ml-6 mr-6">
       {#each featuredProjects as project}
           <ProjectCard 
               title={project.title}
@@ -31,11 +31,5 @@
               url={project.url}
           />
       {/each}
-  </div>
-
-  <div class="mt-6 text-center">
-      <a href="/projects" class="text-blue-600 hover:underline">
-          View all projects →
-      </a>
   </div>
 </section>

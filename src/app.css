@@ -8,10 +8,13 @@
 	--color-bg-0: rgb(202, 216, 228);
 	--color-bg-1: hsl(209, 36%, 86%);
 	--color-bg-2: hsl(224, 44%, 95%);
-	--color-theme-1: #050505;
-	--color-theme-2: #fffefe;
-	--color-theme-3: #555555;
+	--color-theme-primary: #050505;
+	--color-theme-secondary: #fffefe;
+	--color-theme-terciary: #555555;
+	--color-theme-1: #ff3e00;
+	--color-theme-2: #4075a6;
 	--color-text-dark: rgb(0, 0, 0);
+	--color-text-grey: #333333;
 	--color-text-light: rgb(255, 255, 255);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -19,7 +22,7 @@
 	color: var(--color-text-dark);
 }
 
-body {
+/* body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
@@ -28,7 +31,7 @@ body {
 	background-image:
 		radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%),
 		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
-}
+} */
 
 h1,
 h2,
@@ -42,17 +45,17 @@ p {
 }
 
 a {
-	color: var(--color-theme-2);
+	color: var(--color-theme-secondary);
 	text-decoration: underline;
 }
 
 a:hover {
-	color: var(--color-theme-3);
+	color: var(--color-theme-terciary);
 }
 
 a.selected {
 	font-weight: bold;
-	color: var(--color-theme-3);
+	color: var(--color-theme-terciary);
 }
 
 h1 {
@@ -64,7 +67,7 @@ h2 {
 	font-size: 1rem;
 }
 
-pre {
+/* pre {
 	font-size: 16px;
 	font-family: var(--font-mono);
 	background-color: rgba(255, 255, 255, 0.45);
@@ -73,7 +76,7 @@ pre {
 	padding: 0.5em;
 	overflow-x: auto;
 	color: var(--color-text);
-}
+} */
 
 .text-column {
 	display: flex;

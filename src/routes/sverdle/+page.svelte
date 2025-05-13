@@ -222,7 +222,7 @@
 	}
 
 	.how-to-play {
-		color: var(--color-text);
+		color: var(--color-text-dark);
 	}
 
 	.how-to-play::before {
@@ -234,7 +234,7 @@
 		height: 1em;
 		padding: 0.2em;
 		line-height: 1;
-		border: 1.5px solid var(--color-text);
+		border: 1.5px solid var(--color-text-dark);
 		border-radius: 50%;
 		text-align: center;
 		margin: 0 0.5em 0 0;

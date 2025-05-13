@@ -12,5 +12,12 @@
       <a href="/about" class="text-blue-600 hover:underline">
         Learn more →
       </a>
+    </div><div class="mt-4">
+      <a 
+        href="/about" 
+        class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+      >
+        Learn more
+      </a>
     </div>
 </section>

@@ -22,7 +22,7 @@
       {#each links as { href, label }}
         <a
           href={href}
-          class="text-white transition font-medium"
+          class="text-white"
           class:selected={$page.url.pathname === href}
         >
           {label}
