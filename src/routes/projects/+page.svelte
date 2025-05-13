@@ -1,6 +1,6 @@
 <script>
   import ProjectCard from '$lib/components/ProjectCard.svelte';
-  import svelteLogo from '$lib/images/svelte-logo.svg';
+  import svelteLogo from '$lib/images/sveltekit-img1.jpg';
   import hhcLogo from '$lib/images/hhc-logo.jpg';
   import dadjokeLogo from '$lib/images/dad-joke-logo.jpg';
   import missingImage from '$lib/images/missing-image.jpg';
@@ -10,13 +10,13 @@
       title: "Dad Joke Generator",
       description: "Demo API calls SvelteKit and Tailwind. It's fun!",
       image: dadjokeLogo,
-      url: "https://google.com/"
+      url: "/dad-joke"
     },
     {
       title: "Sverdle",
       description: "Wordle but written using Svelte!",
       image: svelteLogo,
-      url: "https://www.rickmiskin.dev/sverdle"
+      url: "/sverdle"
     },
     {
       title: "Hunt Hook & Cook",

@@ -3,7 +3,6 @@
   let menuOpen = false;
 
   const links = [
-    { href: '/', label: 'Home' },
     { href: '/projects', label: 'Projects' },
     { href: '/about', label: 'About' },
     { href: '/resume', label: 'Résumé' },
@@ -11,11 +10,11 @@
   ];
 </script>
 
-<nav class="bg-white border-b px-4 py-4">
+<nav class="bg-black border-b px-4 py-4">
   <div class="max-w-7xl mx-auto flex justify-between items-center">
     <!-- Logo -->
-    <a href="/" class="text-xl font-bold text-blue-700">
-      Rick Miskin II
+    <a href="/" class="text-white text-xl font-bold">
+      RM
     </a>
 
     <!-- Desktop Nav -->
@@ -23,7 +22,7 @@
       {#each links as { href, label }}
         <a
           href={href}
-          class="text-gray-700 hover:text-blue-600 transition font-medium"
+          class="text-white"
           class:selected={$page.url.pathname === href}
         >
           {label}
@@ -33,11 +32,11 @@
 
     <!-- Mobile Menu Button -->
     <button
-      class="sm:hidden text-gray-700 focus:outline-none"
+      class="sm:hidden text-white focus:outline-none"
       on:click={() => (menuOpen = !menuOpen)}
       aria-label="Toggle navigation"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 24 24" stroke="currentColor">
         {#if menuOpen}
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         {:else}
@@ -53,7 +52,7 @@
       {#each links as { href, label }}
         <a
           href={href}
-          class="px-4 py-2 text-gray-700 hover:text-blue-600 font-medium"
+          class="px-4 py-2 font-medium text-white"
           class:selected={$page.url.pathname === href}
         >
           {label}
@@ -64,8 +63,7 @@
 </nav>
 
 <style>
-  a.selected {
-    font-weight: bold;
-    color: #1d4ed8;
-  }
+a {
+	text-decoration: none;
+}
 </style>

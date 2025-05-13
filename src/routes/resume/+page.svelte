@@ -1,6 +1,5 @@
 <script>
-  // Static import to your PDF resume
-  const resumeUrl = '/resume.pdf'; // Place this file in /static/resume.pdf
+  const resumeUrl = '/resume.pdf'; // Static import to your PDF resume from /static/resume.pdf
 </script>
 
 <svelte:head>
