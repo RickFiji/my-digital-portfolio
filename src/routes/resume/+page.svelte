@@ -26,12 +26,16 @@
       <h2 class="text-xl font-semibold text-blue-700">Experience</h2>
       <ul class="mt-2 text-gray-700 space-y-4">
         <li>
-          <strong>Senior Software Engineer</strong> — Example Corp (2020–Present)<br />
-          Developed scalable applications using .NET and modern JavaScript frameworks. Led small teams and mentored junior developers.
+          <strong>Sr. Software Engineer</strong> — (2025–Present)<br />
+          Built and maintained websites using Svelte, React, and custom CMS integrations.
         </li>
         <li>
-          <strong>Full Stack Developer</strong> — Freelance (2018–2020)<br />
+          <strong>Product Owner</strong> — (2025)<br />
           Built and maintained websites for local businesses using Svelte, React, and custom CMS integrations.
+        </li>
+        <li>
+          <strong>Software Engineer</strong> — Example Corp (2014–2025)<br />
+          Developed scalable applications using .NET Core and modern JavaScript frameworks. Led small teams and mentored junior developers.
         </li>
       </ul>
     </section>
@@ -44,8 +48,8 @@
     <section>
       <h2 class="text-xl font-semibold text-blue-700">Education</h2>
       <p class="text-gray-700">
-        B.S. in Computer Science — Example University<br />
-        Graduated 2016
+        B.S. in Computer Science — Appalachain State University<br />
+        Graduated 2014
       </p>
     </section>
   </div>
