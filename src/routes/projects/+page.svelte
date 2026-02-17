@@ -1,4 +1,5 @@
 <script>
+  import pathToSalvationLogo from '$lib/images/path-to-salvation-logo.png';
   import ProjectCard from '$lib/components/ProjectCard.svelte';
   import svelteLogo from '$lib/images/sveltekit-img1.jpg';
   import hhcLogo from '$lib/images/hhc-logo.jpg';
@@ -6,6 +7,13 @@
   import missingImage from '$lib/images/missing-image.jpg';
 
   const projects = [
+    
+    {
+      title: "Path to Salvation",
+      description: "A minimal, step-by-step micro-app presenting the biblical path to salvation through KJV Scripture.",
+      image: pathToSalvationLogo,
+      url: "https://path-to-salvation.lovable.app"
+    },
     {
       title: "Dad Joke Generator",
       description: "Demo API calls SvelteKit and Tailwind. It's fun!",

@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Rick Miskin | Software Engineer</title>
+	<title>Rick Miskin | Building Useful Software</title>
 	<meta name="description" content="Full-stack software engineer building websites for local businesses and employers. View my work and résumé." />
 </svelte:head>
 
