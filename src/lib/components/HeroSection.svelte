@@ -1,5 +1,5 @@
 <script>
-    import headshot from '$lib/images/headshot-doge.jpg';
+    import headshot from '$lib/images/headshot-hero.png';
 </script>
   
 <section class="text-center bg-gray-50 py-10 px-6 rounded-lg shadow-sm">
@@ -11,6 +11,6 @@
 
     <h1 class="text-3xl sm:text-4xl font-bold">Rick Miskin</h1>
     <p class="mt-3 text-lg text-gray-600">
-        Software Engineer | Scrum Master | Doge Enthusiast
+        Software Engineer | Scrum Master
     </p>
 </section>
